@@ -8,7 +8,7 @@ Obs: A parte de enviar um "file" foi apenas para teste.
 
 <br><br>
 
-<img src="form2.gif" alt="É um gif da tela do projeto">
+<img src="form2.gif" alt="tela do formulario">
 
 
 ## Tecnologias Utilizadas
