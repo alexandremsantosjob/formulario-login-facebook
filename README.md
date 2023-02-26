@@ -1,6 +1,6 @@
 # 1º Formulario de login.
 
-Essa foi a minha primeira tentativa de criar uma tela de formulário similar ao facebook. <br>
+Essa foi a minha primeira tentativa de criar uma tela de formulário similar ao facebook apenas com HTML. <br>
 Obs: A parte de enviar um "file" foi apenas para teste.
 <br>
 - HTML (Puro)
