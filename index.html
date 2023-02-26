@@ -9,83 +9,81 @@
 </head>
 <body>
     <h1>Cadastre-se</h1>
-
-    <!-- <h3>Formulário com GET</h3>
-    <form method="get" action="index.html">
-        <input type="text" name="q" value="twitter">
-        <input type="submit" value="Enviar">
-    </form>
-
-    <h3>Formulário com POST</h3>
-    <form method="post" action="index.html">
-        <input type="text" name="q">
-        <input type="submit" value="Enviar">
-    </form> -->
-
-    <h3>Formulário de login do facebook</h3>
     <form method="GET" action="index.html" enctype="multipart/form-data">
-        
-        <input type="text" name="nome" 
-        id="nome" placeholder="nome" required>
-        
-        <input type="text" name="sobrenome" 
-        id="sobrenome" placeholder="sobrenome">
-        
-        <input type="text" name="celular-ou-email" 
-        id="celular-ou-email" placeholder="celular ou e-mail">
-        
-        <input type="password" name="senha" 
-        id="senha" placeholder="nova senha">
-       
-        <br><br>
 
-        <label>Data de nascimento</label>
-        <select name="dia">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </select>
+    
+    <h3>É rápido e fácil.</h3>
 
-        <select name="mes">
-            <option value="jan">jan</option>
-            <option value="fev">fev</option>
-            <option value="març">març</option>
-            <option value="abr">abr</option>
-            <option value="maio">maio</option>
-        </select>
+    <!-- Dados Pessoais -->
 
-        <select name="ano">
-            <option value="1989">1989</option>
-            <option value="1990">1990</option>
-            <option value="1991">1991</option>
-            <option value="1992">1992</option>
-            <option value="1993">1993</option>
-        </select>
-        
-        <br>
-        <br>
+    <input type="text" name="Nome" placeholder="Nome">
+    <input type="text" name="Sobrenome" placeholder="Sobrenome">
+    
+    <br>
+    
+    <input type="text" name="email" placeholder="email">
+    <br>
+    <input type="password" name="password" placeholder="senha">
 
-        <label>Gênero</label><br>
-        
-        <label for="feminino">Feminino</label>
-        <input type="radio" name="genero" 
-        id="feminino" value="feminino">
+<br>
 
-        <label for="masculino">Masculino</label>
-        <input type="radio" name="genero" 
-        id="masculino" value="masculino">
-        
-        <label for="personalizado">Personalizado</label>
-        <input type="radio" name="genero" 
-        id="personalizado" value="personalizado">
-        
-        <br>
-        <br>
-        
-        <input type="file">
-        <input type="submit" value="Enviar">
-    </form>
+    <label>Data de Nacimento</label>
+    
+<br>
+
+    <!-- Data de nascimento -->
+
+<select name="Dia">
+    <option value="5">5</option>
+    <option value="4">4</option>
+    <option value="3">3</option>
+    <option value="2">2</option>
+    <option value="1">1</option>
+</select>
+
+    <!-- Mês de nascimento -->
+
+<select name="Mes">
+    <option value="Jan">Jan</option>
+    <option value="Fev">Fev</option>
+    <option value="Marc">Marc</option>
+    <option value="Abr">Abr</option>
+    <option value="Mai">Mai</option>
+</select>
+    
+    <!-- Ano de nascimento -->
+
+<select name="Ano">
+    <option value="2000">2000</option>
+    <option value="2001">2001</option>
+    <option value="2002">2002</option>
+    <option value="2003">2003</option>
+    <option value="2004">2004</option>
+</select>
+
+<br>
+
+    <!-- Gênero -->
+
+    <label for="Feminino">Feminino</label>
+    <input type="radio" name="gen" 
+    id="Feminino" value="Feminino">
+
+    <label for="Masculino">Masculino</label>
+    <input type="radio" name="gen" 
+    id="Masculino" value="Masculino">
+
+    <label for="Personalizado">Personalizado</label>
+    <input type="radio" name="gen" 
+    id="Personalizado" value="Personalizado">
+
+<br>
+
+     <!-- Envio de formulário -->
+
+     <input type="submit" value="Enviar">
+   
+
+    
 </body>
 </html>
